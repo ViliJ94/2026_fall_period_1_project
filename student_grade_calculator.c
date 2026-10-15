@@ -322,7 +322,8 @@ void print_report_console(const char *student_name, const Subject subjects[], in
     printf("--------------------------------------------------\n");
 }
 
-int main(void) {
+int main(void)
+{
     char student_name[MAX_NAME_LENGTH];
     Subject subjects[MAX_SUBJECTS];
 
